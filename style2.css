@@ -59,6 +59,8 @@ a:hover {
     margin: auto;
     width: 100%;
     max-width: 320px;
+    height: calc(100vw - 20px);
+    max-height: 320px;
 }
 
 #photo img {
@@ -66,20 +68,9 @@ a:hover {
     max-width: 320px;
 }
 
-footer {
-    font-size: 12px;
-    font-weight: 100;
-    padding: 10px;
-    text-align: center;
-}
 
 a.newWindow::after {
-    content: "\1F855";
-}
-
-pre,
-code {
-    white-space: break-spaces;
+    content: "\21D7";
 }
 
 .skip-to-main-content-link {
@@ -122,12 +113,5 @@ code {
 
     #photo img {
         width: 320px;
-    }
-
-    footer {
-        font-size: 12px;
-        font-weight: 100;
-        padding: 10px;
-        border-top: 1px solid var(--primary-color);
     }
 }
